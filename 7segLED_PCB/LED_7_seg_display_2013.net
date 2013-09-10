@@ -1,0 +1,218 @@
+# EESchema Netlist Version 1.1 created  11/03/2013 13:04:40
+(
+ ( /50643FB9 7SEG_CA_SA18-11 7SEG1 SA18-11_CA
+  ( 1 N-000010 )
+  ( 2 N-000034 )
+  ( 3 N-000014 )
+  ( 4 N-000035 )
+  ( 5 N-000010 )
+  ( 6 N-000012 )
+  ( 7 N-000011 )
+  ( 8 N-000029 )
+  ( 9 N-000015 )
+  ( 10 N-000013 )
+ )
+ ( /513DD543 7SEG_CC_2_3INCH 7SEG2 SA23-12_CA
+  ( 1 N-000034 )
+  ( 2 N-000014 )
+  ( 3 N-000010 )
+  ( 4 N-000035 )
+  ( 5 N-000029 )
+  ( 6 N-000012 )
+  ( 7 N-000011 )
+  ( 8 N-000010 )
+  ( 9 N-000015 )
+  ( 10 N-000013 )
+ )
+ ( /4FA83443 C2V8_large_pads C1 100u
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /4FA83448 C1_wide_lg_pad_2 C2 100n
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /4FA83424 DIP-16__300_ELL IC1 ULN2003AD
+  ( 1 N-000003 )
+  ( 2 N-000019 )
+  ( 3 N-000004 )
+  ( 4 N-000020 )
+  ( 5 N-000005 )
+  ( 6 N-000036 )
+  ( 7 N-000018 )
+  ( 8 GND )
+  ( 9 ? )
+  ( 10 N-000022 )
+  ( 11 N-000023 )
+  ( 12 N-000024 )
+  ( 13 N-000025 )
+  ( 14 N-000026 )
+  ( 15 N-000027 )
+  ( 16 N-000028 )
+ )
+ ( /4FDF1781 SIL-7_large_pads P1 INPUT
+  ( 1 LATCH )
+  ( 2 CLOCK )
+  ( 3 DATA )
+  ( 4 GND )
+  ( 5 +5V )
+  ( 6 GND )
+  ( 7 N-000010 )
+ )
+ ( /4FDF1787 SIL-7_large_pads P2 OUTPUT
+  ( 1 LATCH )
+  ( 2 CLOCK )
+  ( 3 N-000002 )
+  ( 4 GND )
+  ( 5 +5V )
+  ( 6 GND )
+  ( 7 N-000010 )
+ )
+ ( /4FDF3AB0 1pin_3mmhole P3 CONN_1
+  ( 1 ? )
+ )
+ ( /4FDF3AB3 1pin_3mmhole P4 CONN_1
+  ( 1 ? )
+ )
+ ( /4FDF3AB6 1pin_3mmhole P5 CONN_1
+  ( 1 ? )
+ )
+ ( /4FDF3ABA 1pin_3mmhole P6 CONN_1
+  ( 1 ? )
+ )
+ ( /4FDF1886 TO92-EBC_large_pad Q1 NPN
+  ( 1 GND )
+  ( 2 N-000030 )
+  ( 3 N-000031 )
+ )
+ ( /4FDF1895 R3-LARGE_PADS_0_8_hole R1 1k
+  ( 1 N-000001 )
+  ( 2 N-000030 )
+ )
+ ( /4FDF1891 R3-LARGE_PADS_0_8_hole R2 R
+  ( 1 N-000029 )
+  ( 2 N-000031 )
+ )
+ ( /4FEAF258 R3-LARGE_PADS_0_8_hole R6 R
+  ( 1 N-000028 )
+  ( 2 N-000011 )
+ )
+ ( /4FEAF25D R3-LARGE_PADS_0_8_hole R7 R
+  ( 1 N-000027 )
+  ( 2 N-000012 )
+ )
+ ( /4FEAF263 R3-LARGE_PADS_0_8_hole R8 R
+  ( 1 N-000026 )
+  ( 2 N-000035 )
+ )
+ ( /4FEAF267 R3-LARGE_PADS_0_8_hole R9 R
+  ( 1 N-000025 )
+  ( 2 N-000014 )
+ )
+ ( /4FEAF26A R3-LARGE_PADS_0_8_hole R10 R
+  ( 1 N-000024 )
+  ( 2 N-000034 )
+ )
+ ( /4FEAF26E R3-LARGE_PADS_0_8_hole R11 R
+  ( 1 N-000023 )
+  ( 2 N-000015 )
+ )
+ ( /4FEAF271 R3-LARGE_PADS_0_8_hole R12 R
+  ( 1 N-000022 )
+  ( 2 N-000013 )
+ )
+ ( /4FEAF2E9 DIP-16__300_ELL U1 74HC595_POWER
+  ( 1 N-000018 )
+  ( 2 N-000036 )
+  ( 3 N-000005 )
+  ( 4 N-000020 )
+  ( 5 N-000004 )
+  ( 6 N-000019 )
+  ( 7 N-000003 )
+  ( 8 GND )
+  ( 9 N-000002 )
+  ( 10 +5V )
+  ( 11 CLOCK )
+  ( 12 LATCH )
+  ( 13 GND )
+  ( 14 DATA )
+  ( 15 N-000001 )
+  ( 16 +5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
